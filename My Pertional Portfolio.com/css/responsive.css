@@ -1,0 +1,125 @@
+@media only screen and (max-width : 1080px) {
+    .home .max-width {
+        /* display: flex; */
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .manishthakur {
+        width: 100%;
+        margin-top: 140px;
+    }
+
+    .home-content {
+        margin: 50px 0;
+    }
+
+    .about-content .left img {
+        height: 350px;
+        width: 350px;
+      }
+}
+
+@media only screen and (max-width : 950px) {
+
+    .max-width {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .menu {
+        line-height: 40px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: black;
+        width: 100%;
+        padding-top: 80px;
+        height: 100%;
+        text-align: center;
+
+    }
+
+    .menu li {
+        list-style: none;
+        display: block;
+    }
+
+    .menu li a {
+        display: inline-block;
+        margin-left: 0px;
+        font-size: 25px;
+        font-family: 900;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+
+    .menu-btn {
+        display: block;
+        position: absolute;
+        right: 30px;
+    }
+
+    .line-height {
+        line-height: 40px;
+        opacity: 1;
+        background: black;
+        /* visibility: block; */
+    }
+
+    .line-height-2 {
+        line-height: 0px;
+        opacity: 0;
+    }
+
+    .social-icons {
+        display: block;
+        padding-top: 140px;
+    }
+
+    .social-icons i {
+        font-size: 25px;
+        padding: 0 5px;
+        cursor: pointer;
+    }
+
+    .social-icons a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .social-icons a:hover {
+        color: crimson;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0 20px;
+      }
+
+      .about .about-content .right {
+        flex: 100%;
+        margin: 40px auto 64px;
+
+      }
+
+}
+
+@media only screen and (max-width : 450px) {
+    .manishthakur {
+        margin-top: 0px;
+      }
+
+      .home-content .text-3 {
+        font-size: 22px;
+
+      }
+}
+
